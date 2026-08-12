@@ -1,0 +1,15 @@
+{
+    "name": "sec-8k-material-event-tracker",
+    "version": "0.1.0",
+    "type": "module",
+    "description": "Search recent SEC 8-K filings for material corporate events via the official EDGAR full text search API.",
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "apify": "^3.2.6"
+    },
+    "scripts": {
+        "start": "node src/main.js"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of SEC 8-K Material Event Tracker",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Filings",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "sec-8k-material-event-tracker",
+    "title": "SEC 8-K Material Event Tracker — Corporate Filings",
+    "description": "Search recent SEC 8-K filings for material corporate events: M&A, bankruptcy, executive departures, material agreements. Search market-wide, by ticker, or by specific 8-K item code.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile"
+}
