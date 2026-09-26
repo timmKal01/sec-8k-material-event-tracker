@@ -1,0 +1,63 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "accessionNumber",
+                    "companyName",
+                    "ticker",
+                    "cik",
+                    "items",
+                    "itemLabels",
+                    "filingDate",
+                    "periodEnding",
+                    "filingUrl"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "accessionNumber": {
+                        "label": "Accession number",
+                        "format": "text"
+                    },
+                    "companyName": {
+                        "label": "Company name",
+                        "format": "text"
+                    },
+                    "ticker": {
+                        "label": "Ticker",
+                        "format": "text"
+                    },
+                    "cik": {
+                        "label": "CIK",
+                        "format": "text"
+                    },
+                    "items": {
+                        "label": "Items",
+                        "format": "array"
+                    },
+                    "itemLabels": {
+                        "label": "Item labels",
+                        "format": "array"
+                    },
+                    "filingDate": {
+                        "label": "Filing date",
+                        "format": "text"
+                    },
+                    "periodEnding": {
+                        "label": "Period ending",
+                        "format": "text"
+                    },
+                    "filingUrl": {
+                        "label": "Filing URL",
+                        "format": "link"
+                    }
+                }
+            }
+        }
+    }
+}
