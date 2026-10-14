@@ -6,7 +6,7 @@ more. Search market-wide, by ticker, or by a specific 8-K item code.
 
 Built for investors, M&A advisors, and sales/research teams tracking
 material events at companies they follow — a different signal than
-[Insider Trading Alert](https://github.com/timmKal01/insider-trading-alert),
+[Insider Trading Alert](https://apify.com/m_ctim/insider-trading-alert),
 which covers personal stock transactions by executives rather than
 corporate-level events.
 
@@ -64,5 +64,5 @@ search returns 1 filing or 100.
 
 ## Related products
 
-- [Insider Trading Alert](https://github.com/timmKal01/insider-trading-alert) — executive personal stock buy/sell signals
-- [Federal Contract Award Tracker](https://github.com/timmKal01/federal-contract-award-tracker) — who just won government contracts
+- [Insider Trading Tracker](https://apify.com/m_ctim/insider-trading-alert): executive personal stock buy/sell signals
+- [Federal Contract Awards](https://apify.com/m_ctim/federal-contract-award-tracker): who just won government contracts
