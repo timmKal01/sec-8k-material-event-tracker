@@ -34,6 +34,7 @@ One record per filing:
 
 ```json
 {
+  "rowType": "filing",
   "accessionNumber": "0000950103-26-012019",
   "companyName": "Eos Energy Enterprises, Inc.",
   "ticker": "EOSE",

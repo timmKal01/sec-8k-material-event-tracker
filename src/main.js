@@ -28,7 +28,7 @@ const filings = await fetchFilings({
 });
 
 for (const filing of filings) {
-    await Actor.pushData(filing);
+    await Actor.pushData({ rowType: 'filing', ...filing });
 }
 
 await Actor.charge({ eventName: FILING_SEARCH_EVENT });
